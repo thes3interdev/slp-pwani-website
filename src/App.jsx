@@ -15,13 +15,9 @@ const App = () => {
 	return (
 		<Router>
 			<ApolloProvider client={client}>
-				<div>
-					<div className="content">
-						<Routes>
-							<Route path="/" element={<PageHome />} />
-						</Routes>
-					</div>
-				</div>
+				<Routes>
+					<Route path="/" element={<PageHome />} />
+				</Routes>
 			</ApolloProvider>
 		</Router>
 	);
