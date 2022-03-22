@@ -4,8 +4,41 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+	--primary-dark: #5651e5;
+	--primary-light: #709dff;
+}
+
+.icon {
+	color: var(--primary-dark);
+}
+
 @layer base {
 	body {
 		@apply font-poppins text-slate-700 antialiased;
+	}
+
+	h1 {
+		@apply text-3xl font-bold uppercase md:text-4xl;
+	}
+
+	h2 {
+		@apply text-3xl font-bold;
+	}
+
+	h3 {
+		@apply text-xl font-bold;
+	}
+
+	li {
+		@apply p-3;
+	}
+
+	button {
+		@apply rounded-md border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] p-3 uppercase text-white;
+	}
+
+	.icon {
+		@apply cursor-pointer text-2xl;
 	}
 }
