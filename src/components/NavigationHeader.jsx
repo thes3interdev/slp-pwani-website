@@ -15,14 +15,14 @@ const NavigationHeader = () => {
 	};
 
 	return (
-		<div className="flex h-20 items-center justify-between px-4">
+		<div className="absolute z-10 flex h-20 w-full items-center justify-between px-4 text-white">
 			{/** main menu start */}
 			<div>
 				<h1 onClick={handleNavigation} className={logo ? 'hidden' : 'block'}>
 					Pwani
 				</h1>
 			</div>
-			<ul className="hidden md:flex">
+			<ul className="hidden hover:cursor-pointer md:flex">
 				<li>Home</li>
 				<li>Destinations</li>
 				<li>Travel</li>
@@ -37,7 +37,11 @@ const NavigationHeader = () => {
 
 			{/** hamberger menu start */}
 			<div onClick={handleNavigation} className="z-10 md:hidden">
-				{navigation ? <AiOutlineClose size={21} /> : <HiOutlineMenuAlt4 size={21} />}
+				{navigation ? (
+					<AiOutlineClose size={21} className="text-black" />
+				) : (
+					<HiOutlineMenuAlt4 size={21} />
+				)}
 			</div>
 			{/** hamberger menu end */}
 
@@ -46,17 +50,17 @@ const NavigationHeader = () => {
 				onClick={handleNavigation}
 				className={
 					navigation
-						? 'absolute left-[0] top-0 flex w-full flex-col bg-gray-100/90 px-4 py-8'
+						? 'absolute left-[0] top-0 flex w-full flex-col bg-gray-100/90 px-4 py-6 text-black'
 						: 'absolute left-[-100%]'
 				}
 			>
-				<h1 className="uppercase">Pwani</h1>
+				<h1>Pwani</h1>
 				<ul>
-					<li className="border-b">Home</li>
-					<li className="border-b">Destinations</li>
-					<li className="border-b">Travel</li>
-					<li className="border-b">View</li>
-					<li className="border-b">Book</li>
+					<li className="border-b border-gray-300">Home</li>
+					<li className="border-b border-gray-300">Destinations</li>
+					<li className="border-b border-gray-300">Travel</li>
+					<li className="border-b border-gray-300">View</li>
+					<li className="border-b border-gray-300">Book</li>
 				</ul>
 				<div className="flex flex-col">
 					<button className="my-5">Search</button>
