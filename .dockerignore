@@ -1,0 +1,9 @@
+# build system files
+Dockerfile
+.dockerignore
+.gitignore
+README.md
+
+# build artifacts
+build
+node_modules
