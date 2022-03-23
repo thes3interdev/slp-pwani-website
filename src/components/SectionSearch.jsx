@@ -59,7 +59,7 @@ const SectionSearch = () => {
 					<div className="my-3 flex flex-col uppercase">
 						<label className="font-semibold">Destination</label>
 						<select className="rounded-md border p-2">
-							<option>Grand Antigua</option>
+							<option>Antigua</option>
 							<option>Key West</option>
 							<option>Mombasa</option>
 							<option>Maldives</option>

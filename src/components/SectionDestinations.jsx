@@ -9,33 +9,33 @@ const SectionDestinations = () => {
 		<div className="mx-auto max-w-[1240px] py-16 px-4 text-center">
 			{/** header section start */}
 			<h1>All Inclusive Resorts</h1>
-			<p className="py-2">On The Caribbean's Best Beaches</p>
+			<p className="py-2">In The Best Beaches on The Planet</p>
 			{/** header section end */}
 
 			{/** destination images section start */}
 			<div className="grid grid-rows-none gap-2 py-4 md:grid-cols-5 md:gap-4">
 				<img
-					className="object-coverobject-center col-span-2 row-span-2 h-full w-full rounded-md md:col-span-3"
+					className="col-span-2 row-span-2 h-full w-full rounded-md object-cover object-center md:col-span-3"
 					src={BoraBora_1}
 					alt="Bora Bora"
 				/>
 				<img
-					className="object-coverobject-center h-full w-full rounded-md"
+					className="h-full w-full rounded-md object-cover object-center"
 					src={BoraBora_2}
 					alt="Bora Bora"
 				/>
 				<img
-					className="object-coverobject-center h-full w-full rounded-md"
+					className="h-full w-full rounded-md object-cover object-center"
 					src={Maldives_1}
 					alt="Maldives"
 				/>
 				<img
-					className="object-coverobject-center h-full w-full rounded-md"
+					className="h-full w-full rounded-md object-cover object-center"
 					src={Maldives_2}
 					alt="Maldives"
 				/>
 				<img
-					className="object-coverobject-center h-full w-full rounded-md"
+					className="h-full w-full rounded-md object-cover object-center"
 					src={KeyWest}
 					alt="Key West"
 				/>
