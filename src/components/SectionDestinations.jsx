@@ -15,27 +15,27 @@ const SectionDestinations = () => {
 			{/** destination images section start */}
 			<div className="grid grid-rows-none gap-2 py-4 md:grid-cols-5 md:gap-4">
 				<img
-					className="object-coverobject-center col-span-2 row-span-2 h-full w-full md:col-span-3"
+					className="object-coverobject-center col-span-2 row-span-2 h-full w-full rounded-md md:col-span-3"
 					src={BoraBora_1}
 					alt="Bora Bora"
 				/>
 				<img
-					className="object-coverobject-center h-full w-full"
+					className="object-coverobject-center h-full w-full rounded-md"
 					src={BoraBora_2}
 					alt="Bora Bora"
 				/>
 				<img
-					className="object-coverobject-center h-full w-full"
+					className="object-coverobject-center h-full w-full rounded-md"
 					src={Maldives_1}
 					alt="Maldives"
 				/>
 				<img
-					className="object-coverobject-center h-full w-full"
+					className="object-coverobject-center h-full w-full rounded-md"
 					src={Maldives_2}
 					alt="Maldives"
 				/>
 				<img
-					className="object-coverobject-center h-full w-full"
+					className="object-coverobject-center h-full w-full rounded-md"
 					src={KeyWest}
 					alt="Key West"
 				/>

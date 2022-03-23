@@ -24,7 +24,7 @@ const SectionHero = () => {
 				<form className="mx-auto flex w-full max-w-[700px] items-center justify-between rounded-md border bg-gray-100/90 p-1 text-black">
 					<div>
 						<input
-							className="w-[300px] border-transparent bg-transparent focus:outline-none sm:w-[400px]"
+							className="w-[250px] border-transparent bg-transparent focus:outline-none sm:w-[400px]"
 							type="text"
 							placeholder="Search Destinations"
 						/>
