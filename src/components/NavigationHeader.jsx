@@ -23,11 +23,11 @@ const NavigationHeader = () => {
 				</h1>
 			</div>
 			<ul className="hidden hover:cursor-pointer md:flex">
-				<li>Home</li>
 				<li>Destinations</li>
 				<li>Travel</li>
 				<li>View</li>
 				<li>Book</li>
+				<li>About</li>
 			</ul>
 			<div className="hidden space-x-2 md:flex">
 				<BsPerson size={21} />
@@ -56,11 +56,11 @@ const NavigationHeader = () => {
 			>
 				<h1>Pwani</h1>
 				<ul>
-					<li className="border-b border-gray-300">Home</li>
 					<li className="border-b border-gray-300">Destinations</li>
 					<li className="border-b border-gray-300">Travel</li>
 					<li className="border-b border-gray-300">View</li>
 					<li className="border-b border-gray-300">Book</li>
+					<li className="border-b border-gray-300">About</li>
 				</ul>
 				<div className="flex flex-col">
 					<button className="my-5">Search</button>

@@ -5,6 +5,7 @@ import SectionDestinations from '../components/SectionDestinations';
 import SectionSearch from '../components/SectionSearch';
 import SectionSelects from '../components/SectionSelects';
 import SectionDestinationCarousel from '../components/SectionDestinationCarousel';
+import NavigationFooter from '../components/NavigationFooter';
 
 const PageHome = () => {
 	UtilityTabTitle('Pwani Travel | Superior Software Solutions');
@@ -17,6 +18,7 @@ const PageHome = () => {
 			<SectionSearch />
 			<SectionSelects />
 			<SectionDestinationCarousel />
+			<NavigationFooter />
 		</div>
 	);
 };
