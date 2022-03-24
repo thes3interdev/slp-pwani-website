@@ -6,10 +6,10 @@ import KeyWest from '../assets/keywest.jpg';
 
 const SectionDestinations = () => {
 	return (
-		<div className="mx-auto max-w-[1240px] py-16 px-4 text-center">
+		<div className="mx-auto max-w-7xl py-16 px-4 text-center">
 			{/** header section start */}
 			<h1>All Inclusive Resorts</h1>
-			<p className="py-2">In The Best Beaches on The Planet</p>
+			<p className="py-2 uppercase">In The Best Beaches On The Planet</p>
 			{/** header section end */}
 
 			{/** destination images section start */}
